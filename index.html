@@ -21,16 +21,45 @@
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  
+  
   <body>
+    <!-- wraps all text and classes for generator -->
     <div class="wrapper">
       <header>
         <h1>Password Generator</h1>
       </header>
+      <!-- card including the pw -->
       <div class="card">
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
         <div class="card-body">
+            <!-- check box to indicate if uppercase characters are needed -->
+          <div class="cbox">
+              <label class="label">Uppercase Characters :</label>
+              <input type="checkbox" id="upper" unchecked class="val">
+              <br><br>
+          </div>
+          <!-- check box to indicate if lowercase characters are needed -->
+          <div class="cbox">
+              <label class="label">Lowercase Characters :</label>
+              <input type="checkbox" id="lower" unchecked class="val">
+              <br><br>
+          </div>
+          <!-- check box to indicate if special characters are needed -->
+          <div class="cbox">
+              <label class="label">Special Characters :</label>
+              <input type="checkbox" id="special" unchecked class="val">
+              <br><br>
+          </div>
+          <!-- check box to indicate if numerics are needed -->
+          <div class="cbox">
+              <label class="label">Numerics :</label>
+              <input type="checkbox" id="numerics" unchecked class="val">
+              <br><br>
+          </div>
+
           <textarea
             readonly
             id="password"
@@ -38,6 +67,7 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
+        <!-- button for generating pw -->
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>
