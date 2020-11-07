@@ -8,11 +8,11 @@ Input for a password length between 8 and 128 characters. Button function return
 
 ![Password Length and Error Message](./images/pwlength.PNG)
 
-On button click, the characters indicated by the check box will be randomized and show a password including one or more of the previously selectd characters. 
+On button click, the characters indicated by the check box will be randomized and show a password including one or more of the previously selected characters. 
 
 ![Password All Selected](./images/pw.PNG)
 
 
-JavaScript file is commented thoroughly explaining the purpose of variables and functions. Chrome's developer tools show functionality when generating a password. Passwords generated that do not meet criteria specified with the checkboxes will return and generate passwords until one is created within the specified parameters.
+JavaScript file is commented thoroughly explaining the purpose of variables and functions. Passwords generated that do not meet criteria specified with the checkboxes will return and generate passwords until one is created within the specified parameters.
 
 Please click [here](https://zacharybinx.github.io/pw-generator/) to see for yourself!
